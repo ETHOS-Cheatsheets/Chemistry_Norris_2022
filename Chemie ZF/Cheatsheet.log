@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.29)  29 DEC 2022 11:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.29)  29 DEC 2022 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1604,7 +1604,7 @@ scheZelle.png>] (Cheatsheet.aux) )
 Here is how much of TeX's memory you used:
  33838 strings out of 476406
  657288 string characters out of 2799381
- 1923787 words of memory out of 3000000
+ 1924787 words of memory out of 3000000
  53569 multiletter control sequences out of 15000+600000
  555636 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1623,7 +1623,7 @@ lm/lmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/ty
 pe1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.pfb
 ><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Cheatsheet.pdf (3 pages, 1622354 bytes).
+Output written on Cheatsheet.pdf (3 pages, 1622314 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
