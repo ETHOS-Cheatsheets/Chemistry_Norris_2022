@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.29)  29 DEC 2022 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.29)  29 DEC 2022 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,275 +1103,270 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
-<Bilder/Zusammenhang.png, id=7, 419.31656pt x 251.43938pt>
-File: Bilder/Zusammenhang.png Graphic file (type png)
-<use Bilder/Zusammenhang.png>
-Package pdftex.def Info: Bilder/Zusammenhang.png  used on input line 30.
-(pdftex.def)             Requested size: 196.324pt x 117.72379pt.
 
-Overfull \hbox (4.9791pt too wide) in paragraph at lines 30--30
- [] 
- []
+./Cheatsheet.tex:16: Undefined control sequence.
+l.16 \blindtext
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 30.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 29.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 30.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 29.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 30.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 29.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 29.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 30.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+(Font)              <5> on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 42.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<Bilder/TrendsimPSE.png, id=9, 2050.66125pt x 579.16376pt>
+<Bilder/TrendsimPSE.png, id=7, 2050.66125pt x 579.16376pt>
 File: Bilder/TrendsimPSE.png Graphic file (type png)
 <use Bilder/TrendsimPSE.png>
-Package pdftex.def Info: Bilder/TrendsimPSE.png  used on input line 54.
+Package pdftex.def Info: Bilder/TrendsimPSE.png  used on input line 53.
 (pdftex.def)             Requested size: 193.47873pt x 54.64111pt.
 
-Overfull \hbox (2.13382pt too wide) in paragraph at lines 54--54
+Overfull \hbox (2.13382pt too wide) in paragraph at lines 53--53
 [][]
  []
 
-<Bilder/Energieniveau.png, id=10, 469.00218pt x 593.21625pt>
+<Bilder/Energieniveau.png, id=9, 469.00218pt x 593.21625pt>
 File: Bilder/Energieniveau.png Graphic file (type png)
 <use Bilder/Energieniveau.png>
-Package pdftex.def Info: Bilder/Energieniveau.png  used on input line 97.
+Package pdftex.def Info: Bilder/Energieniveau.png  used on input line 96.
 (pdftex.def)             Requested size: 142.26378pt x 179.93951pt.
-<Bilder/Quantenzahlen.PNG, id=11, 642.14906pt x 349.305pt>
+<Bilder/Quantenzahlen.PNG, id=10, 642.14906pt x 349.305pt>
 File: Bilder/Quantenzahlen.PNG Graphic file (type png)
 <use Bilder/Quantenzahlen.PNG>
-Package pdftex.def Info: Bilder/Quantenzahlen.PNG  used on input line 97.
+Package pdftex.def Info: Bilder/Quantenzahlen.PNG  used on input line 96.
 (pdftex.def)             Requested size: 153.64487pt x 83.57373pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 
  []
 
-<Bilder/Metallische Bindung.png, id=12, 331.2375pt x 204.765pt>
+<Bilder/Metallische Bindung.png, id=11, 331.2375pt x 204.765pt>
 File: Bilder/Metallische Bindung.png Graphic file (type png)
 <use Bilder/Metallische Bindung.png>
-Package pdftex.def Info: Bilder/Metallische Bindung.png  used on input line 165.
+Package pdftex.def Info: Bilder/Metallische Bindung.png  used on input line 164.
 (pdftex.def)             Requested size: 71.13188pt x 43.97049pt.
 
-Overfull \hbox (0.70523pt too wide) in paragraph at lines 165--165
+Overfull \hbox (0.70523pt too wide) in paragraph at lines 164--164
 []$[]$ $[]$
  []
 
-<Bilder/VSEPER.PNG, id=13, 543.53062pt x 441.90094pt>
+<Bilder/VSEPER.PNG, id=12, 543.53062pt x 441.90094pt>
 File: Bilder/VSEPER.PNG Graphic file (type png)
 <use Bilder/VSEPER.PNG>
-Package pdftex.def Info: Bilder/VSEPER.PNG  used on input line 181.
+Package pdftex.def Info: Bilder/VSEPER.PNG  used on input line 180.
 (pdftex.def)             Requested size: 193.47873pt x 157.3041pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 \OT1/lmss/m/n/6 Je h[]oher BO, de-sto sta-bi-ler das Sys-tem,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 \OT1/lmss/m/n/6 st[]arker die Bin-dung und k[]urzer die Bin-dung.
  []
 
 
-Overfull \hbox (2.13382pt too wide) in paragraph at lines 181--181
+Overfull \hbox (2.13382pt too wide) in paragraph at lines 180--180
 []
  []
 
-<Bilder/Molekuelorbitalmodell.png, id=14, 967.615pt x 935.495pt>
+<Bilder/Molekuelorbitalmodell.png, id=13, 967.615pt x 935.495pt>
 File: Bilder/Molekuelorbitalmodell.png Graphic file (type png)
 <use Bilder/Molekuelorbitalmodell.png>
-Package pdftex.def Info: Bilder/Molekuelorbitalmodell.png  used on input line 201.
+Package pdftex.def Info: Bilder/Molekuelorbitalmodell.png  used on input line 200.
 (pdftex.def)             Requested size: 99.58464pt x 96.26712pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []$\OML/lmm/m/it/6 ^^[$\OT1/lmss/bx/n/6 -Bindung: \OT1/lmss/m/n/6 Ato-mor-bi-ta-le
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 201--201
+Underfull \hbox (badness 7397) in paragraph at lines 200--200
 []\OT1/lmss/m/n/6 uberlappen ent-lang der in-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 \OML/lmm/m/it/6 ^^Y$\OT1/lmss/bx/n/6 -Bindung: \OT1/lmss/m/n/6 Ato-mor-bi-ta-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []\OT1/lmss/m/n/6 uberlappen par-al-lel zur in-ter-
  []
 
 
-Overfull \hbox (0.70523pt too wide) in paragraph at lines 201--201
+Overfull \hbox (0.70523pt too wide) in paragraph at lines 200--200
 []$ $[]$
  []
 
-<Bilder/Hybridorbitale.png, id=15, 337.76187pt x 291.0875pt>
+<Bilder/Hybridorbitale.png, id=14, 337.76187pt x 291.0875pt>
 File: Bilder/Hybridorbitale.png Graphic file (type png)
 <use Bilder/Hybridorbitale.png>
-Package pdftex.def Info: Bilder/Hybridorbitale.png  used on input line 215.
+Package pdftex.def Info: Bilder/Hybridorbitale.png  used on input line 214.
 (pdftex.def)             Requested size: 170.71652pt x 147.12904pt.
-<Setup/BackgroundLinien.pdf, id=16, 845.0471pt x 597.50829pt>
+<Setup/BackgroundLinien.pdf, id=15, 845.0471pt x 597.50829pt>
 File: Setup/BackgroundLinien.pdf Graphic file (type pdf)
 <use Setup/BackgroundLinien.pdf>
-Package pdftex.def Info: Setup/BackgroundLinien.pdf  used on input line 259.
+Package pdftex.def Info: Setup/BackgroundLinien.pdf  used on input line 258.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 [1
 
- <./Setup/BackgroundLinien.pdf> <./Bilder/Zusammenhang.png> <./Bilder/TrendsimPSE.png> <./Bilder/Energieniveau.png> <./Bilder/Quantenzahlen.PNG> <./Bilder/Metallische Bindung.png> <./Bilder/VSEPER.PNG> <./Bilder/Molekuelorbitalmodell.png>]
+ <./Setup/BackgroundLinien.pdf> <./Bilder/TrendsimPSE.png> <./Bilder/Energieniveau.png> <./Bilder/Quantenzahlen.PNG> <./Bilder/Metallische Bindung.png> <./Bilder/VSEPER.PNG> <./Bilder/Molekuelorbitalmodell.png> <./Bilder/Hybridorbitale.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 319.
-<Bilder/Gibs.png, id=41, 709.14937pt x 148.30406pt>
+(Font)              <7> on input line 318.
+<Bilder/Gibs.png, id=40, 709.14937pt x 148.30406pt>
 File: Bilder/Gibs.png Graphic file (type png)
 <use Bilder/Gibs.png>
-Package pdftex.def Info: Bilder/Gibs.png  used on input line 319.
+Package pdftex.def Info: Bilder/Gibs.png  used on input line 318.
 (pdftex.def)             Requested size: 193.47873pt x 40.46126pt.
 
-Overfull \hbox (2.13382pt too wide) in paragraph at lines 319--319
+Overfull \hbox (2.13382pt too wide) in paragraph at lines 318--318
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 
  []
 
-<Bilder/Reaktionsordnung2.png, id=42, 2017.5375pt x 1264.725pt>
+<Bilder/Reaktionsordnung2.png, id=41, 2017.5375pt x 1264.725pt>
 File: Bilder/Reaktionsordnung2.png Graphic file (type png)
 <use Bilder/Reaktionsordnung2.png>
-Package pdftex.def Info: Bilder/Reaktionsordnung2.png  used on input line 389.
+Package pdftex.def Info: Bilder/Reaktionsordnung2.png  used on input line 388.
 (pdftex.def)             Requested size: 196.324pt x 123.06413pt.
 
-Overfull \hbox (4.9791pt too wide) in paragraph at lines 389--389
+Overfull \hbox (4.9791pt too wide) in paragraph at lines 388--388
 [] 
  []
 
-<Bilder/Mehrstufigereaktion.PNG, id=43, 916.1728pt x 99.37125pt>
+<Bilder/Mehrstufigereaktion.PNG, id=42, 916.1728pt x 99.37125pt>
 File: Bilder/Mehrstufigereaktion.PNG Graphic file (type png)
 <use Bilder/Mehrstufigereaktion.PNG>
-Package pdftex.def Info: Bilder/Mehrstufigereaktion.PNG  used on input line 416.
+Package pdftex.def Info: Bilder/Mehrstufigereaktion.PNG  used on input line 415.
 (pdftex.def)             Requested size: 193.47873pt x 20.98532pt.
 
-Overfull \hbox (2.13382pt too wide) in paragraph at lines 416--416
+Overfull \hbox (2.13382pt too wide) in paragraph at lines 415--415
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
 []\OT1/lmss/m/n/6 S-B-Reaktion sind GGW-
  []
 
-<Bilder/SaureBaseReaktion.png, id=44, 447.92343pt x 257.46187pt>
+<Bilder/SaureBaseReaktion.png, id=43, 447.92343pt x 257.46187pt>
 File: Bilder/SaureBaseReaktion.png Graphic file (type png)
 <use Bilder/SaureBaseReaktion.png>
-Package pdftex.def Info: Bilder/SaureBaseReaktion.png  used on input line 452.
+Package pdftex.def Info: Bilder/SaureBaseReaktion.png  used on input line 451.
 (pdftex.def)             Requested size: 96.73936pt x 55.60464pt.
-<Bilder/SaureBaseReaktion2.png, id=45, 501.37312pt x 60.225pt>
+<Bilder/SaureBaseReaktion2.png, id=44, 501.37312pt x 60.225pt>
 File: Bilder/SaureBaseReaktion2.png Graphic file (type png)
 <use Bilder/SaureBaseReaktion2.png>
-Package pdftex.def Info: Bilder/SaureBaseReaktion2.png  used on input line 452.
+Package pdftex.def Info: Bilder/SaureBaseReaktion2.png  used on input line 451.
 (pdftex.def)             Requested size: 96.73936pt x 11.62022pt.
 
-Overfull \hbox (3.5505pt too wide) in paragraph at lines 452--452
+Overfull \hbox (3.5505pt too wide) in paragraph at lines 451--451
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (9.24106pt too wide) in paragraph at lines 469--469
+Overfull \hbox (9.24106pt too wide) in paragraph at lines 468--468
 []$[]$ $[]$
  []
 
-<Bilder/Redox.PNG, id=46, 669.2503pt x 295.85532pt>
+<Bilder/Redox.PNG, id=45, 669.2503pt x 295.85532pt>
 File: Bilder/Redox.PNG Graphic file (type png)
 <use Bilder/Redox.PNG>
-Package pdftex.def Info: Bilder/Redox.PNG  used on input line 483.
+Package pdftex.def Info: Bilder/Redox.PNG  used on input line 482.
 (pdftex.def)             Requested size: 102.97704pt x 45.5244pt.
-<Bilder/HeterolytischeSpaltung.PNG, id=47, 814.54312pt x 257.46187pt>
+<Bilder/HeterolytischeSpaltung.PNG, id=46, 814.54312pt x 257.46187pt>
 File: Bilder/HeterolytischeSpaltung.PNG Graphic file (type png)
 <use Bilder/HeterolytischeSpaltung.PNG>
-Package pdftex.def Info: Bilder/HeterolytischeSpaltung.PNG  used on input line 499.
+Package pdftex.def Info: Bilder/HeterolytischeSpaltung.PNG  used on input line 498.
 (pdftex.def)             Requested size: 193.47873pt x 61.15567pt.
 
-Overfull \hbox (2.13382pt too wide) in paragraph at lines 499--499
+Overfull \hbox (2.13382pt too wide) in paragraph at lines 498--498
 [][] 
  []
 
-<Bilder/GalvanischeZelle.png, id=48, 560.0925pt x 459.96844pt>
+<Bilder/GalvanischeZelle.png, id=47, 560.0925pt x 459.96844pt>
 File: Bilder/GalvanischeZelle.png Graphic file (type png)
 <use Bilder/GalvanischeZelle.png>
-Package pdftex.def Info: Bilder/GalvanischeZelle.png  used on input line 513.
+Package pdftex.def Info: Bilder/GalvanischeZelle.png  used on input line 512.
 (pdftex.def)             Requested size: 99.58464pt x 81.78008pt.
 
-Overfull \hbox (3.5505pt too wide) in paragraph at lines 513--513
+Overfull \hbox (3.5505pt too wide) in paragraph at lines 512--512
 []$[]$ $[]$ 
  []
 
 File: Setup/BackgroundLinien.pdf Graphic file (type pdf)
 <use Setup/BackgroundLinien.pdf>
-Package pdftex.def Info: Setup/BackgroundLinien.pdf  used on input line 513.
+Package pdftex.def Info: Setup/BackgroundLinien.pdf  used on input line 514.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-[2 <./Bilder/Hybridorbitale.png> <./Bilder/Gibs.png> <./Bilder/Reaktionsordnung2.png> <./Bilder/Mehrstufigereaktion.PNG> <./Bilder/SaureBaseReaktion.png> <./Bilder/SaureBaseReaktion2.png>]
-File: Setup/BackgroundLinien.pdf Graphic file (type pdf)
-<use Setup/BackgroundLinien.pdf>
-Package pdftex.def Info: Setup/BackgroundLinien.pdf  used on input line 515.
-(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
- [3 <./Bilder/Redox.PNG> <./Bilder/HeterolytischeSpaltung.PNG> <./Bilder/GalvanischeZelle.png>] (/Users/noasendlhofer/Documents/GitHub/Chemistry_Norris_2022/chemistry_norris_2022/.texpadtmp/Cheatsheet.aux) ) 
+[2 <./Bilder/Gibs.png> <./Bilder/Reaktionsordnung2.png> <./Bilder/Mehrstufigereaktion.PNG> <./Bilder/SaureBaseReaktion.png> <./Bilder/SaureBaseReaktion2.png> <./Bilder/Redox.PNG> <./Bilder/HeterolytischeSpaltung.PNG> <./Bilder/GalvanischeZelle.png>] (/Users/noasendlhofer/Documents/GitHub/Chemistry_Norris_2022/chemistry_norris_2022/.texpadtmp/Cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 33426 strings out of 478268
- 649252 string characters out of 5846346
- 1075168 words of memory out of 5000000
- 51023 multiletter control sequences out of 15000+600000
+ 33419 strings out of 478268
+ 649067 string characters out of 5846346
+ 1085250 words of memory out of 5000000
+ 51017 multiletter control sequences out of 15000+600000
  512608 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  120i,12n,121p,531b,2625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/mathb6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on /Users/noasendlhofer/Documents/GitHub/Chemistry_Norris_2022/chemistry_norris_2022/.texpadtmp/Cheatsheet.pdf (3 pages, 1634113 bytes).
+Output written on /Users/noasendlhofer/Documents/GitHub/Chemistry_Norris_2022/chemistry_norris_2022/.texpadtmp/Cheatsheet.pdf (2 pages, 1617266 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
