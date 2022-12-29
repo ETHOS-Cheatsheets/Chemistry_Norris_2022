@@ -1,0 +1,180 @@
+\input{setup.tex}
+
+\begin{document}
+\begin{multicols*}{4}
+
+\header{Template}
+\header{Erstellt von miflury}
+\header{Version: \today}
+
+\white{}
+\header{I.Header}
+\thema{I.1 Thema}
+\content{
+    The quick brown fox jumps over the lazy dog.
+}
+
+\white{}
+\header{Vorlagen}
+\thema{Text}
+\content{
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+}
+
+\thema{Equation}
+\content{
+    \begin{equation*}
+        I=\int_{\mathbb{R}}e^{-ax^2}\;dx
+    \end{equation*}
+}
+
+\thema{Align}
+\content{
+    \vspace{-3mm}
+    \begin{align*}
+        \iint_{\partial B}\vec{v}\bullet\vec{n}\;dA&=\iiint_{B}div\;\vec{v}\;dV\\
+        \int_{\partial S}\vec{v}\bullet d\vec{r}&=\iint_{S}rot\;\vec{v}\bullet\vec{n}\;dA
+    \end{align*}
+}
+
+\thema{Flalign}
+\content{
+    \vspace{-3mm}
+    \begin{flalign*}
+        &\iint_{\partial B}\vec{v}\bullet\vec{n}\;dA=\iiint_{B}div\;\vec{v}\;dV&\\
+        &\int_{\partial S}\vec{v}\bullet d\vec{r}=\iint_{S}rot\;\vec{v}\bullet\vec{n}\;dA&
+    \end{flalign*}
+}
+
+\thema{Itemize}
+\content{
+    \vspace{-3mm}
+    \begin{itemize}
+        \setlength\itemsep{0mm}
+        \item The quick brown fox jumps over the lazy dog. 
+        \item The quick brown fox jumps over the lazy dog. 
+        \item The quick brown fox jumps over the lazy dog. 
+    \end{itemize}
+}
+\vfill\null
+\columnbreak
+
+\thema{Enumerate}
+\content{
+    \vspace{-3mm}
+    \begin{enumerate}
+        \item The quick brown fox jumps over the lazy dog. 
+        \item The quick brown fox jumps over the lazy dog. 
+        \item The quick brown fox jumps over the lazy dog. 
+    \end{enumerate}
+}
+
+\thema{Zwei Spalten}
+\content{
+    \vspace{-3mm}
+    \begin{multicols*}{2}
+    \content{
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+    }
+    \columnbreak
+    \content{
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+        The quick brown fox jumps over the lazy dog.
+    }
+    \end{multicols*}
+}
+
+\thema{Fonts}
+\content{
+    \text{The quick brown fox jumps over the lazy dog.}\\
+    \textbf{The quick brown fox jumps over the lazy dog.}\\
+    \textit{The quick brown fox jumps over the lazy dog.}
+}
+
+\thema{Bilder}
+\content{
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.\\
+    \raisebox{10mm-\height}{\includegraphics[width=20mm]{figures/pdf.pdf}}\\
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.\\
+    \raisebox{0mm-\height}[0px][0px]{\includegraphics[width=20mm]{figures/pdf.pdf}}\\
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+    The quick brown fox jumps over the lazy dog.
+}
+\vfill\null
+\columnbreak
+
+\thema{Matrix}
+\content{
+    \vspace{-3mm}
+    \begin{flalign*}
+        &A=
+        \begin{bmatrix}
+            a_{11}&a_{12}&a_{13}\\
+            a_{21}&a_{22}&a_{23}\\
+            a_{31}&a_{32}&a_{33}
+        \end{bmatrix}&\\
+        &B=
+        \begin{pmatrix}
+            b_{11}&b_{12}&b_{13}\\
+            b_{21}&b_{22}&b_{23}\\
+            b_{31}&b_{32}&b_{33}
+        \end{pmatrix}&
+    \end{flalign*}
+}
+
+\thema{Abstände und Grösse}
+\content{
+    $||\,|\;|\quad|\qquad|\hspace{15mm}|\quad\big{|}\quad\Big{|}\quad\bigg{|}\quad\Bigg{|}$
+}
+
+\thema{Symbole}
+\content{
+    \vspace{-3mm}
+    \begin{flalign*}
+        &\int\quad\int_a^b\quad\int_{a(x)}^{b(x)}\quad\iint\quad\iiint\quad\oint&\\
+        &\sum_{n=0}^{\infty}\quad\prod_{k=1}^{\infty}\quad\frac{a+b}{c+d}\quad\sqrt{\quad}\quad\sqrt[n]{\quad}&\\
+        &\lim_{x\to\infty}&\\
+        &\to\quad\mapsto\quad\leftrightarrow\quad\leftarrow\quad\rightarrow\quad\longrightarrow\quad\xrightarrow{Text}\quad\Rightarrow\quad\implies&\\
+        &\cdot\quad\bullet\quad\circ\quad\pm\quad\mp\quad\leq\quad\geq\quad\neq\quad\coloneqq\quad\{\}\quad\dots&\\
+        &\subset\quad\subseteq\quad\times\quad\wedge\quad\Delta\quad\nabla\quad\perp&\\
+        &\vec{a}\quad\dot{x}\quad\ddot{x}\quad\Re\quad\Im\quad\mathbb{R}\quad\mathcal{F}\quad\mathcal{L}\quad\partial&\\
+        &\Phi\quad\phi\quad\varphi\quad\Theta\quad\theta\quad\vartheta\quad a_0\quad a_{subs}\quad\overline{z}\quad\overline{a+ib}&\\
+        &\underbrace{\sin^2{(x)}+\cos^2{(x)}}_{=1}&\\
+        &f(x)=
+        \begin{cases}
+            x\quad,\;-1<x<1\\
+            0\quad,\;\text{otherwise}
+        \end{cases}&
+    \end{flalign*}
+}
+
+\end{multicols*}
+\end{document}

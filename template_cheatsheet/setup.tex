@@ -1,0 +1,47 @@
+\documentclass[a4paper, landscape, 8pt]{extarticle}
+\pagestyle{empty}
+
+\usepackage[top=.5cm, right=.5cm, bottom=.5cm, left=.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{wallpaper}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{calc}
+\usepackage{wrapfig}
+
+
+\definecolor{header}{HTML}{1e1f1c}
+\definecolor{thema}{HTML}{272822}
+
+\CenterWallPaper{1}{background.pdf}
+
+\setlength\columnsep{4mm}
+\setlength{\columnseprule}{0pt}
+
+\newcommand{\header}[1]{
+\begin{tcolorbox}[arc=0mm, colback=header, colframe=header, toprule=0mm, rightrule=0mm, bottomrule=0mm, leftrule=0mm, valign=center, top=.7mm, right=.7mm, bottom=.5mm, left=.7mm, fontupper=\color{white}, before skip=0mm, after skip=0mm]
+\texttt{#1}
+\end{tcolorbox}
+}
+
+\newcommand{\thema}[1]{
+\begin{tcolorbox}[arc=0mm, colback=thema, colframe=thema, toprule=0mm, rightrule=0mm, bottomrule=0mm, leftrule=0mm, valign=center, top=.7mm, right=.7mm, bottom=.7mm, left=.7mm, fontupper=\color{white}, before skip=0mm, after skip=0mm]
+\texttt{#1}
+\end{tcolorbox}
+}
+
+\newcommand{\content}[1]{
+\begin{tcolorbox}[opacityback=0, opacityframe=0, arc=0mm, toprule=0mm, rightrule=0mm, bottomrule=0mm, leftrule=0mm, valign=center, top=.7mm, right=.7mm, bottom=.7mm, left=.7mm, fontupper=\color{black}, before skip=0mm, after skip=0mm]
+\textsf{#1}
+\end{tcolorbox}
+}
+
+\newcommand{\white}[0]{
+\begin{tcolorbox}[arc=0mm, colback=white, colframe=white, toprule=0mm, rightrule=0mm, bottomrule=0mm, leftrule=0mm, valign=center, top=.5mm, right=0mm, bottom=.5mm, left=0mm, fontupper=\color{white}, before skip=0mm, after skip=0mm]
+\end{tcolorbox}
+}
+

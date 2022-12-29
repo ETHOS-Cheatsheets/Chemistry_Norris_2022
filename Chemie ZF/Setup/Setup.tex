@@ -1,0 +1,195 @@
+\pdfminorversion=6
+\documentclass[8pt, a4paper, landscape, xcolor=dvipsnames]{extarticle}
+\pagestyle{empty} % Keine Seitennummern
+
+% Verwendete Pakete
+    \usepackage{chemfig}
+	\usepackage[utf8]{inputenc}
+	\usepackage[top=0.7cm, bottom=0.9cm, left=0.65 cm, right=0.65 cm, ]{geometry}
+	\usepackage{amsmath}
+	\usepackage{amsfonts}
+	\usepackage{lmodern}
+	\usepackage{graphicx}
+	\setlength{\parindent}{0pt}
+	\usepackage[normalem]{ulem}
+	\usepackage{enumitem}
+	\usepackage{mathabx}
+	\usepackage{colortbl}
+	\usepackage[ngerman]{babel}
+	\usepackage{mathtools}
+	\usepackage{wallpaper}
+	\usepackage{changepage}
+	\usepackage{tikz}
+	\usepackage{tabularx}
+	\usepackage{tcolorbox}
+	\usepackage{lipsum}
+	\usepackage{multicol}
+	\usepackage{letltxmacro}
+	\usepackage{tabularx}
+	\usepackage{chemformula}
+	\usepackage[version=4]{mhchem}
+	\usepackage[x-4]{pdfx}
+	%\usepackage[dvipsnames]{xcolor}
+
+
+	\definecolor{Spezi1}{HTML}{512D6D}%lila
+	\definecolor{Spezi2}{HTML}{ED680B}%Orange	
+	\definecolor{Spezi3}{HTML}{FBB900}%Gelb
+
+
+	%\definecolor{Spezi1}{HTML}{009EE3}%cyan
+	%\definecolor{Spezi2}{HTML}{E5007D}%Orange	
+	%\definecolor{Spezi3}{HTML}{FFED00}%Gelb
+	
+
+% Spalteneinstellungen
+
+	\setlength\columnsep{3mm}
+	\setlength{\columnseprule}{0pt}
+	
+	
+	\setlength{\tabcolsep}{12pt} % Default value: 6pt
+    \renewcommand{\arraystretch}{1.8}
+            
+    % Horizontale Punkte
+    \LetLtxMacro\orgddots\ddots
+	\DeclareRobustCommand\vdots{%
+	  \mathpalette\@vdots{}%
+	}
+	
+	\DeclareRobustCommand\ddots{%
+		\mathinner{%
+		   \mathpalette\@ddots{}%
+		   \mkern\thinmuskip
+		}%
+	}
+
+	\makeatother
+	
+	% Schriftart
+	\renewcommand{\familydefault}{\sfdefault}
+	\newcommand{\cb}{\vfill\null\columnbreak}
+	% Dokument-Info Block	
+
+	\newcommand{\DocumentInfo}[1]{
+	\begin{tcolorbox}[
+		arc=0mm,
+		colback=Spezi1,
+		colframe=white,
+		bottomrule = 0 mm,
+		toprule = 0 mm,
+		leftrule = 0 mm,
+		rightrule = 0 mm,
+		valign=center,
+		left=0.5mm,
+		top= 0.3 mm,
+		bottom= 0.3 mm,
+		fontupper=\color{white},
+		before skip = 0mm,
+		leftright skip = -0.5mm,
+		after skip = 0 mm]
+		\large
+	\textbf{#1}	
+	\end{tcolorbox}
+	}
+	
+	% Überschrift
+	\renewcommand{\section}[1]{
+	\begin{tcolorbox}[
+			arc=0mm,
+			colback=Spezi2,
+			colframe=white,
+			bottomrule = 0 mm,
+			toprule = 0 mm,
+			leftrule = 0 mm,
+			rightrule = 0 mm,
+			valign=center,
+			left=0.5mm,
+			top= 0.3 mm,
+			bottom= 0.3 mm,
+			fontupper=\color{white},
+			before skip = 0mm,
+			leftright skip = -0.5mm,
+			after skip = 0 mm]
+
+		\textbf{#1}
+	\end{tcolorbox}
+	}
+		
+	
+	% Abschnitt	
+	\renewcommand{\subsection}[2]{
+	\begin{tcolorbox}[
+			arc=0mm,
+			colback=Spezi3,
+			colframe=white,
+			bottomrule = 0 mm,
+			toprule = 0 mm,
+			leftrule = 0 mm,
+			rightrule = 0 mm,
+			valign=center,
+			left=0.5mm,
+			top=0.1mm,
+			bottom=0.1mm,
+			before skip = 0mm,
+			leftright skip = -0.5mm,
+			after skip = 1.4 mm]
+		\small \textbf{#1}
+	\end{tcolorbox}
+	
+	\begin{adjustwidth}{0.5mm}{1mm}
+		\footnotesize
+		#2
+		\vspace{0.5mm}
+	\end{adjustwidth}
+	}
+	
+	% Weisser Balken zwischen Abschnitten
+	\newcommand{\WhiteSpace}[0]{
+	\begin{tcolorbox}[
+			arc=0mm,
+			colback=white,
+			colframe=white,
+			bottomrule = 0 mm,
+			toprule = 0 mm,
+			leftrule = 0 mm,
+			rightrule = 0 mm,
+			valign=center,
+			left=0.5mm,
+			top= -0.4 mm,
+			bottom= -0.4 mm,
+			fontupper=\color{white},
+			before skip = 0mm,
+			leftright skip = -0.5mm,
+			after skip = 0 mm]
+	\end{tcolorbox}
+	}
+	
+% Hintergrundbild (graue Spalten)
+
+	\CenterWallPaper{1}{Setup/BackgroundLinien.pdf}
+
+% TabularX Zeug (Paket für Tabellen)
+
+	\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% TikZ Zeug (Paket für Vektorgraphiken)
+
+	\usetikzlibrary{decorations.pathreplacing,calc}
+
+	\newcommand{\tikzmark}[2][-3pt]{\tikz[remember picture, overlay, baseline=-0.5ex]\node[#1](#2){};}
+	
+	\tikzset{brace/.style={decorate, decoration={brace}},
+	 brace mirrored/.style={decorate, decoration={brace,mirror}},
+	}
+	
+	\newcounter{brace}
+	\setcounter{brace}{0}
+	\newcommand{\drawbrace}[3][brace]{%
+	 \refstepcounter{brace}
+	 \tikz[remember picture, overlay]\draw[#1] (#2.center)--(#3.center)node[pos=0.5, name=brace-\thebrace]{};
+	}
+	
+	\newcommand{\annote}[3][]{%
+	 \tikz[remember picture, overlay]\node[#1] at (#2) {#3};
+	}
