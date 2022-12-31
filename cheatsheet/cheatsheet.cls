@@ -32,7 +32,7 @@
 \RequirePackage{changepage}
 \RequirePackage{etoolbox} % check ifempty
 \RequirePackage[dvipsnames]{xcolor}
-\newcommand{\customColor}{RoyalBlue}
+\newcommand{\customColor}{Peach}
 \RequirePackage{tcolorbox}
 
 
