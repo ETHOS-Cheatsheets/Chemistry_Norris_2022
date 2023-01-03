@@ -1,3 +1,3 @@
-# Chemistry_Norris_2022
-Chemistry ZF 2022 Norris
-![logo](Cheatsheet_Chemistry_Norris_2022.pdf)
+# Chemistry Cheatsheet Prof. Norris 2022
+
+![PDF](Cheatsheet_Chemistry_Norris_2022.pdf)
