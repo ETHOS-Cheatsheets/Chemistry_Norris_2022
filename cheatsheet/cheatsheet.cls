@@ -105,7 +105,7 @@
     \begin{adjustwidth}{-\@@leftTextMargin}{-\@@rightTextMargin}
         \begin{tcolorbox}[%
                         arc=1mm,%
-                        colback=\customColor!70,%
+                        colback=\customColor!60,%
                         boxrule=0pt,%
                         valign=center,%
                         height from=5mm to 5cm,%
@@ -134,7 +134,7 @@
     \begin{adjustwidth}{-\@@leftTextMargin}{-\@@rightTextMargin}
         \begin{tcolorbox}[%
                         arc=1mm,% corner radius
-                        colback=\customColor!45,%
+                        colback=\customColor!30,%
                         boxrule=0pt,% border box
                         valign=center,% vertically center title
                         height from=5mm to 5cm,%
@@ -144,7 +144,7 @@
                         right=0.2mm,%
                         after skip = 0.01mm,%
                         before skip = 0.01mm,%
-                        fontupper=\color{white}%
+                        fontupper=\color{black}%
                         ]%
                         \textbf{#1}%
         \end{tcolorbox}%
@@ -209,7 +209,7 @@
 \renewcommand{\normalsize}{\fontsize{8}{9}\selectfont} % changes normalsize to small % dirty
 \renewcommand{\familydefault}{\sfdefault}
 
-\setlength{\parindent}{0cm}
+\setlength{\parindent}{0.0cm}
 \setlength\columnsep{0.5mm}
 \setlength{\columnseprule}{0pt}
 \setlength{\textwidth}{597pt} % max 597pt
