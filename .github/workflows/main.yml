@@ -4,6 +4,12 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
+      - name: Get version
+        id: version
+        run: echo "version=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      - name: Check outputs
+        run: echo ${{ steps.vars.outputs.version }}
+        
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Compile LaTeX document
@@ -11,8 +17,30 @@ jobs:
         with:
           working_directory: cheatsheet
           root_file: main.tex
+      
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
           name: PDF
           path: cheatsheet/main.pdf
+      
+      - name: release
+        uses: actions/create-release@v1
+        id: create_release
+        with:
+          draft: false
+          prerelease: false
+          release_name: ${{ steps.version.outputs.version }}
+          tag_name: ${{ github.ref }}
+          body_path: CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: upload linux artifact
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: cheatsheet/main.pdf
+          asset_name: cheatsheet.pdf
+          asset_content_type: application/zip
