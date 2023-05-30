@@ -4,10 +4,6 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
-      - name: Get version
-        id: version
-        run: echo "${{github.ref_name}}"
-        
       - name: Set up Git repository
         uses: actions/checkout@v3
       - name: Compile LaTeX document
@@ -28,9 +24,9 @@ jobs:
         with:
           draft: false
           prerelease: false
-          release_name: Release ${{ github.run_number }}
+          release_name: Release ${{ github.run_number }} ${{ github.ref }}
           tag_name: ${{ github.run_number }}
-          body: CHANGES!
+          body: ${{ github.event.head_commit.message }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: upload linux artifact
