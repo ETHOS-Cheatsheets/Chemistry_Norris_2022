@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get version
         id: version
-        run: echo "$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
+        run: echo "${{github.ref_name}}"
       - name: Check outputs
         run: echo ${{ steps.vars.outputs.version }}
         
