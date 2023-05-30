@@ -7,8 +7,6 @@ jobs:
       - name: Get version
         id: version
         run: echo "${{github.ref_name}}"
-      - name: Check outputs
-        run: echo ${{ steps.vars.outputs.version }}
         
       - name: Set up Git repository
         uses: actions/checkout@v3
@@ -30,7 +28,7 @@ jobs:
         with:
           draft: false
           prerelease: false
-          release_name: ${{ steps.version.outputs.version }}
+          release_name: Release ${{ github.ref }}
           tag_name: ${{ github.ref }}
           body: CHANGES!
         env:
