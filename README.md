@@ -1,3 +1,3 @@
 # Chemistry Cheatsheet Prof. Norris 2022
 
-![PDF](Cheatsheet_Chemistry_Norris_2022.pdf)
+Download the latest PDF version here: [Releases](https://github.com/Noothless/Chemistry_Norris_2022/releases)
