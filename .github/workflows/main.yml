@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get version
         id: version
-        run: echo "version=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+        run: echo "$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
       - name: Check outputs
         run: echo ${{ steps.vars.outputs.version }}
         
@@ -32,7 +32,7 @@ jobs:
           prerelease: false
           release_name: ${{ steps.version.outputs.version }}
           tag_name: ${{ github.ref }}
-          body_path: CHANGELOG.md
+          body: CHANGES!
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: upload linux artifact
