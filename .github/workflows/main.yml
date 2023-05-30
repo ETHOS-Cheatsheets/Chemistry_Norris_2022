@@ -18,7 +18,7 @@ jobs:
           name: PDF
           path: cheatsheet/main.pdf
       
-      - name: release
+      - name: Create Release
         uses: actions/create-release@v1
         id: create_release
         with:
@@ -29,7 +29,7 @@ jobs:
           body: ${{ github.event.head_commit.message }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
-      - name: upload linux artifact
+      - name: Upload Release Assets
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ github.token }}
